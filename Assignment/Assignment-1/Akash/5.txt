@@ -1,5 +1,0 @@
-Frameworks of python:
-    > Django
-    > Flask
-    > Cherry
-    > Grok
