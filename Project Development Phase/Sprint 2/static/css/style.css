@@ -1,0 +1,111 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background: url('../images/pro4.jpg')no-repeat;
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.signup-box {
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color: none;
+    border-radius: 3px;
+}
+
+.login-box {
+    width: 360px;
+    height: 280px;
+    margin: auto;
+    background-color: none;
+    border-radius: 3px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 1000;
+    color: black;
+}
+
+.h1signup {
+    padding-top: 75px;
+}
+
+.h1signin {
+    padding-top: 200px;
+}
+
+h4 {
+    text-align: center;
+}
+
+form {
+    width: 300px;
+    margin-left: 20px;
+}
+
+form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+    color: black;
+}
+
+form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+
+input[type="submit"] {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #49c1a2;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+    font-size: 15px;
+}
+
+.para-title {
+    text-align: center;
+    padding-top: 18px;
+    font-size: 20px;
+    color: white;
+}
+
+.para-1 {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    padding-top: 10px;
+    margin-top: -10px;
+}
+
+.para-1 a {
+    color: #49c1a2;
+}
+
+.para-2 {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    padding-top: 200px;
+    margin-top: -10px;
+}
+
+.para-2 a {
+    color: #49c1a2;
+}
