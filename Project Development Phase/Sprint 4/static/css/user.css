@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+::selection {
+    color: #000;
+    background: #fff;
+}
+
+nav {
+    position: fixed;
+    background: #1b1b1b;
+    width: 100%;
+    padding: 20px 0;
+    z-index: 12;
+}
+
+nav .menu {
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.img {
+    background: url('../images/pro.jpg')no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.img::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.menu .logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.menu ul {
+    display: inline-flex;
+}
+
+.menu ul li {
+    list-style: none;
+    margin-left: 7px;
+}
+
+.center {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.center .title {
+    color: #fff;
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.center .sub_title {
+    color: #fff;
+    font-size: 52px;
+    font-weight: 600;
+}
+
+.center .btns {
+    margin-top: 20px;
+}
+
+input[type="submit"] {
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 10px;
+    border: 2px solid green;
+    color: green;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+input[type="text"] {
+    width: 400px;
+    height: 35px;
+    margin-top: 20px;
+    border: groove;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    cursor: default;
+}
+
+input:last-child {
+    background: white;
+    border: none;
+}
+
+input:last-child:hover {
+    background: greenyellow;
+}
