@@ -1,10 +1,10 @@
  apiVersion: v1
  kind: Service
  metadata:
-   name: final-ibm-project
+   name: final-project-namespace-deployment
  spec:
    ports:
    - port: 5000
      targetPort: 5000
    selector:
-     app: finalibmproject
+     app: finalprojectnamespace

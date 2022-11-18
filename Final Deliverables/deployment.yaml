@@ -1,20 +1,20 @@
  apiVersion: apps/v1
  kind: Deployment
  metadata:
-   name: final-ibm-project
+   name: final-project-namespace-deployment
  spec:
    replicas: 1
    selector:
      matchLabels:
-       app: finalibmproject
+       app: finalprojectnamespace
    template:
      metadata:
        labels:
-         app: finalibmproject
+         app: finalprojectnamespace
      spec:
        containers:
-       - name: finalibmproject
-         image: icr.io/final_ibm_project/ibm
+       - name: finalprojectnamespace
+         image: icr.io/final-project-namespace/finalapp
          imagePullPolicy: Always
          ports:
          - containerPort: 5000
